@@ -37,8 +37,8 @@ module.exports = {
               name: 'De rien les gars! ',
               
           })
-            .setDescription(`\n➡🍈 **Follow on:**\n- GitHub - ${githubLink}\n- X - ${XLink}`)
-            .setImage('https://images-ext-1.discordapp.net/external/JXAr5qBEf9oaJrO8UExk_ZxSZaR1FiJyBMvD7EkgMrE/https/static1.srcdn.com/wordpress/wp-content/uploads/2023/10/random-moon-knight-go.jpg?format=webp&width=938&height=469')
+            .setDescription(`\n🍈 **Follow on:**\n- GitHub - ${githubLink}\n- X - ${XLink}`)
+            .setImage('https://images-ext-1.discordapp.net/external/uS2UFLS7XJsvheFom6cEm3-wUy6L_wLBXIkXwA43n54/https/i.kym-cdn.com/photos/images/newsfeed/002/638/553/929.jpg?format=webp')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
